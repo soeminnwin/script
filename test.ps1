@@ -18,6 +18,18 @@ $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
     Description="Test"
 }
 
+$driveMappingConfig+=  [PSCUSTOMOBJECT]@{
+    DriveLetter = "S"
+    UNCPath= "\\FA-LT067\SharedFolder2"
+    Description="Test 2"
+}
+
+$driveMappingConfig+=  [PSCUSTOMOBJECT]@{
+    DriveLetter = "T"
+    UNCPath= "\\FA-LT067\SharedFolder3"
+    Description="Test 3"
+}
+
 
 ######################################################################
 #               end section script configuration                     #
