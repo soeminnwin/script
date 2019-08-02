@@ -12,12 +12,6 @@ $driveMappingConfig=@()
 
 $dnsDomainName= "pacificlight.local"
 
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "I"
-    UNCPath= "http://doclight/IT/IT Library"
-    Description="IT Library"
-}
-
 $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
     DriveLetter = "R"
     UNCPath= "\\SNG-FS-01\PacificLight Singapore"
