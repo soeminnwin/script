@@ -14,7 +14,7 @@ $dnsDomainName= "pacificlight.local"
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
-    UNCPath= "http://doclight/IT/IT%20Library"
+    UNCPath= "http://doclight/IT/IT Library"
     Description="IT Library"
 }
 
@@ -44,6 +44,8 @@ $connected=$false
 $retries=0
 $maxRetries=3
 
+$Cred = Get-Credential
+
 Write-Output "Starting script..."
 do {
     
@@ -72,7 +74,7 @@ do {
 
         Write-Output "Mapping network drive $($PSItem.UNCPath)"
 
-        New-PSDrive -PSProvider FileSystem -Name $PSItem.DriveLetter -Root $PSItem.UNCPath -Description $PSItem.Description -Persist -Scope global
+        New-PSDrive -PSProvider FileSystem -Name $PSItem.DriveLetter -Root $PSItem.UNCPath -Description $PSItem.Description -Credential $Cred -Persist -Scope global
 
         (New-Object -ComObject Shell.Application).NameSpace("$($PSItem.DriveLetter):").Self.Name=$PSItem.Description
 }
