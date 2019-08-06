@@ -10,7 +10,7 @@ $driveMappingConfig=@()
    Add your internal Active Directory Domain name and custom network drives below
 #>
 
-$dnsDomainName= "pacificlight.local"
+$dnsDomainName= "mizkashi.com"
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
