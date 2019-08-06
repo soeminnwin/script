@@ -20,7 +20,7 @@ $driveMappingConfig+= [PSCUSTOMOBJECT]@{
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "Q"
-    UNCPath= "\\doclight\DavWWWRoot\IT\IT%20Library"
+    UNCPath= "http://doclight/IT"
     Description="IT Library 10"
 }
 
