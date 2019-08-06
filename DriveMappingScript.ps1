@@ -32,60 +32,12 @@ $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
-    UNCPath= "\\doclight.pacificlight.local\IT\IT Library"
-    Description="IT Library"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "J"
-    UNCPath= "\\doclight.pacificlight.local\IT\IT%20Library"
-    Description="IT Library 2"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "K"
-    UNCPath= "\\172.108.40.42\IT\IT%20Library"
-    Description="IT Library 3"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "L"
-    UNCPath= "\\172.108.40.42\IT\IT Library"
-    Description="IT Library 4"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "M"
-    UNCPath= "http://doclight/IT/IT Library"
-    Description="IT Library 5"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "N"
-    UNCPath= "http://doclight/IT/IT%20Library"
-    Description="IT Library 6"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "O"
-    UNCPath= "\\doclight\IT\IT Library"
-    Description="IT Library 7"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "P"
-    UNCPath= "\\doclight\IT\IT%20Library"
-    Description="IT Library 8"
-}
-
-$driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "R"
     UNCPath= "\\doclight\DavWWWRoot\IT"
     Description="IT Library 9"
 }
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
-    DriveLetter = "S"
+    DriveLetter = "J"
     UNCPath= "\\doclight\DavWWWRoot\IT\IT%20Library"
     Description="IT Library 10"
 }
