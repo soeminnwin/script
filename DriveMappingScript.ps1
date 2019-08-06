@@ -32,26 +32,26 @@ $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
-    UNCPath= "\\doclight\IT\IT Library"
+    UNCPath= "\\doclight.pacificlight.local\IT\IT Library"
     Description="IT Library"
 }
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I 2"
-    UNCPath= "\\doclight\IT\IT%20Library"
-    Description="IT Library"
+    UNCPath= "\\doclight.pacificlight.local\IT\IT%20Library"
+    Description="IT Library 2"
 }
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I (IT)"
     UNCPath= "http://doclight/IT/IT Library"
-    Description="IT Library"
+    Description="IT Library 3"
 }
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I (IT) 2"
     UNCPath= "http://doclight/IT/IT%20Library"
-    Description="IT Library"
+    Description="IT Library 4"
 }
 
 ######################################################################
