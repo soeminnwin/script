@@ -36,6 +36,12 @@ $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     Description="IT Library"
 }
 
+$driveMappingConfig+= [PSCUSTOMOBJECT]@{
+    DriveLetter = "I (IT)"
+    UNCPath= "http://doclight/IT/IT Library"
+    Description="IT Library"
+}
+
 ######################################################################
 #               end section script configuration                     #
 ######################################################################
