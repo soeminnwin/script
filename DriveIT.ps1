@@ -14,13 +14,13 @@ $dnsDomainName= "pacificlight.local"
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
-    UNCPath= "\\doclight\IT"
+    UNCPath= "\\doclight\DavWWWRoot\IT"
     Description="IT Library 9"
 }
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "Q"
-    UNCPath= "\\doclight\IT\IT Library"
+    UNCPath= "\\doclight\DavWWWRoot\IT\IT Library"
     Description="IT Library 10"
 }
 
