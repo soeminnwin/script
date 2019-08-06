@@ -32,8 +32,6 @@ $connected=$false
 $retries=0
 $maxRetries=3
 
-$Cred = Get-Credential
-
 Write-Output "Starting script..."
 do {
     
