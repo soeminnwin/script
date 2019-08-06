@@ -78,6 +78,18 @@ $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     Description="IT Library 8"
 }
 
+$driveMappingConfig+= [PSCUSTOMOBJECT]@{
+    DriveLetter = "R"
+    UNCPath= "\\doclight\DavWWWRoot\IT"
+    Description="IT Library 9"
+}
+
+$driveMappingConfig+= [PSCUSTOMOBJECT]@{
+    DriveLetter = "S"
+    UNCPath= "\\doclight\DavWWWRoot\IT\IT%20Library"
+    Description="IT Library 10"
+}
+
 ######################################################################
 #               end section script configuration                     #
 ######################################################################
