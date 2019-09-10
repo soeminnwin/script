@@ -30,6 +30,12 @@ $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
     Description="Historic Files from IG"
 }
 
+$driveMappingConfig+=  [PSCUSTOMOBJECT]@{
+    DriveLetter = "I"
+    UNCPath= "\\doclight\DavWWWRoot\IT\IT Library"
+    Description="I Drive"
+}
+
 ######################################################################
 #               end section script configuration                     #
 ######################################################################
